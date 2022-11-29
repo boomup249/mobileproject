@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="모바일프로그래밍: 중간:"></TextView>
+        <EditText
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/momid"></EditText>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="기말: "></TextView>
+        <EditText
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/mofin"></EditText>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="과제: "></TextView>
+        <EditText
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/moapp"></EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="자바프로그래밍응용: 중간:"></TextView>
+        <EditText
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/jamid"></EditText>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="기말: "></TextView>
+        <EditText
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/jafin"></EditText>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="과제: "></TextView>
+        <EditText
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/jaapp"></EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="운영체제: 중간:"></TextView>
+        <EditText
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/osmid"></EditText>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="기말: "></TextView>
+        <EditText
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/osfin"></EditText>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="과제: "></TextView>
+        <EditText
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/osapp"></EditText>
+    </LinearLayout>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:text="학점 계산하기"
+    android:id="@+id/calc">
+
+</Button>
+
+</LinearLayout>
