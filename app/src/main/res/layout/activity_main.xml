@@ -6,7 +6,11 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
-
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="성적 입력"
+    android:textSize="40dp"></TextView>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="80dp"
@@ -67,6 +71,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/jaapp"></EditText>
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="80dp"
@@ -97,6 +102,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/osapp"></EditText>
     </LinearLayout>
+
 <Button
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -105,5 +111,75 @@
     android:id="@+id/calc">
 
 </Button>
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="계산 결과"
+        android:textSize="40dp"></TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="모바일프로그래밍: 합계:"></TextView>
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/mototal"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="학점: "></TextView>
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/moavg"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="자바프로그래밍응용: 합계:"></TextView>
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/jatotal"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="학점: "></TextView>
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/jaavg"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="운영체제: 합계:"></TextView>
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ostotal"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="학점: "></TextView>
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/osavg"></TextView>
+    </LinearLayout>
 </LinearLayout>
